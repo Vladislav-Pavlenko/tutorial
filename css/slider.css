@@ -1,0 +1,15 @@
+.slick-slide {
+  width: 283px !important;
+  background-color: #ffffff;
+}
+
+.slick-slider .slick-track {
+  display: flex;
+  gap: 38px;
+
+  margin-bottom: 30px;
+}
+
+.slick-initialized .slick-slider {
+  height: 700px;
+}

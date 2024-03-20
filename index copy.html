@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>travel goo</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Laila:wght@700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="header-nav">
+          <a class="header-logo" href="./index.html"
+            >travel <br />
+            goo</a
+          >
+          <ul class="header-list">
+            <li class="header-list-item">
+              <a class="header-link" href="">about</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-link" href="">buy</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-link" href="">contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Hero -->
+        <div class="hero">
+          <h1 class="hero-title">Назва компанії</h1>
+          <p class="hero-description">
+            description Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus atque sint inventore qui consequuntur. Rerum maxime,
+            aspernatur eligendi ratione deleniti consequuntur ducimus.
+          </p>
+          <button class="hero-button" type="button">Дізнатись більше</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Services -->
+      <section class="services">
+        <div class="container">
+          <h2 class="services-title">Наші послуги</h2>
+          <ul class="services-list">
+            <li class="services-list-item">
+              <svg
+                class="services-item-svg"
+                width="42"
+                height="42"
+                style="fill: #32df8f"
+              >
+                <use href="./img/icon.svg#icon-bus"></use>
+              </svg>
+              <h3 class="services-item-title">Перевезення</h3>
+              <p class="services-item-text">
+                Перевезення пасажирів та їх багажу в міста Італії
+              </p>
+            </li>
+            <li class="services-list-item">
+              <svg
+                class="services-item-svg"
+                width="42"
+                height="42"
+                style="fill: #00b8e0"
+              >
+                <use href="./img/icon.svg#icon-truck"></use>
+              </svg>
+              <h3 class="services-item-title">Доставка посилок</h3>
+              <p class="services-item-text">
+                Доставка посилок в міста Італії. Приймаємо особисто та новою
+                поштою
+              </p>
+            </li>
+            <li class="services-list-item">
+              <svg
+                class="services-item-svg"
+                width="42"
+                height="42"
+                style="fill: #e48b78"
+              >
+                <use href="./img/icon.svg#icon-hotel"></use>
+              </svg>
+              <h3 class="services-item-title">Бронювання готелів</h3>
+              <p class="services-item-text">
+                Бронюємо номер в готелі зазделегідь
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about">
+        <div class="container">
+          <h2 class="about-title">Про нас</h2>
+          <ul class="about-list">
+            <li class="about-list-item">
+              <svg class="about-item-svg" width="42" height="42">
+                <use href="./img/icon.svg#icon-calendar"></use>
+              </svg>
+              <h3 class="about-item-title">10+</h3>
+              <p class="about-item-text">
+                Більше 10 років стажу перевезення пасажирів
+              </p>
+            </li>
+            <li class="about-list-item">
+              <svg class="about-item-svg" width="42" height="42">
+                <use href="./img/icon.svg#icon-statistic"></use>
+              </svg>
+              <h3 class="about-item-title">8 000+</h3>
+              <p class="about-item-text">Більше 8 тисяч задоволених клієнтів</p>
+            </li>
+            <li class="about-list-item">
+              <svg class="about-item-svg" width="42" height="42">
+                <use href="./img/icon.svg#icon-truck"></use>
+              </svg>
+              <h3 class="about-item-title">3 000+</h3>
+              <p class="about-item-text">Більше 3 тисяч доставлених посилок</p>
+            </li>
+            <li class="about-list-item">
+              <svg class="about-item-svg" width="42" height="42">
+                <use href="./img/icon.svg#icon-building"></use>
+              </svg>
+              <h3 class="about-item-title">15+</h3>
+              <p class="about-item-text">Більше 15 міст в яких ми працуємо</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Ukraine -->
+      <section class="ukraine">
+        <div class="container">
+          <h2 class="ukraine-title">Міста України</h2>
+          <p class="ukraine-description">
+            Тут представлені міста України з яких ми здійснюємо перевезення.
+            <br />** Виїзд кожного тиждня у середу **
+          </p>
+          <ul class="ukraine-list">
+            <li class="ukraine-list-item">
+              <img
+                class="ukraine-item-img"
+                src="./img/ukraine/Khmelnick.jpg"
+                alt="Хмельницьк"
+              />
+              <p class="ukraine-item-name">Хмельницьк</p>
+            </li>
+            <li class="ukraine-list-item">
+              <img
+                class="ukraine-item-img"
+                src="./img/ukraine/Chernivci.jpg"
+                alt="Чернівці"
+              />
+              <p class="ukraine-item-name">Чернівці</p>
+            </li>
+            <li class="ukraine-list-item">
+              <img
+                class="ukraine-item-img"
+                src="./img/ukraine/Ternopil.jpg"
+                alt="Тернопіль"
+              />
+              <p class="ukraine-item-name">Тернопіль</p>
+            </li>
+            <li class="ukraine-list-item">
+              <img
+                class="ukraine-item-img"
+                src="./img/ukraine/Lviv.jpg"
+                alt="Львів"
+              />
+              <p class="ukraine-item-name">Львів</p>
+            </li>
+            <li class="ukraine-list-item">
+              <img
+                class="ukraine-item-img"
+                src="./img/ukraine/Striy.jpg"
+                alt="Стрий"
+              />
+              <p class="ukraine-item-name">Стрий</p>
+            </li>
+            <li class="ukraine-list-item">
+              <img
+                class="ukraine-item-img"
+                src="./img/ukraine/Mukachevo.jpg"
+                alt="Мукачево"
+              />
+              <p class="ukraine-item-name">Мукачево</p>
+            </li>
+            <li class="ukraine-list-item">
+              <img
+                class="ukraine-item-img"
+                src="./img/ukraine/Uzhgorod.jpg"
+                alt="Ужгород"
+              />
+              <p class="ukraine-item-name">Ужгород</p>
+            </li>
+            <li class="ukraine-list-item">
+              <img
+                class="ukraine-item-img"
+                src="./img/ukraine/Chop.jpg"
+                alt="Чоп"
+              />
+              <p class="ukraine-item-name">Чоп</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Italy -->
+      <section class="italy">
+        <div class="container">
+          <h2 class="italy-title">Міста Італії</h2>
+          <p class="italy-description">
+            Тут представлені міста Італії в які ми здійснюємо перевезення.**
+            Виїзд кожного тижня в суботу **
+          </p>
+          <ul class="italy-list">
+            <li class="italy-list-item">
+              <img
+                class="italy-item-img"
+                src="./img/italy/sorrento.jpg"
+                alt="Сорренто"
+              />
+              <p class="italy-item-name">Сорренто</p>
+            </li>
+            <li class="italy-list-item">
+              <img
+                class="italy-item-img"
+                src="./img/italy/venecie.jpg"
+                alt="Венеція"
+              />
+              <p class="italy-item-name">Венеція</p>
+            </li>
+            <li class="italy-list-item">
+              <img
+                class="italy-item-img"
+                src="./img/italy/reggio-emilia.jpg"
+                alt="Реджо-Емілія"
+              />
+              <p class="italy-item-name">Реджо-Емілія</p>
+            </li>
+            <li class="italy-list-item">
+              <img
+                class="italy-item-img"
+                src="./img/italy/bologna.jpg"
+                alt="Болонья"
+              />
+              <p class="italy-item-name">Болонья</p>
+            </li>
+            <li class="italy-list-item">
+              <img
+                class="italy-item-img"
+                src="./img/italy/rome.jpg"
+                alt="Рим"
+              />
+              <p class="italy-item-name">Рим</p>
+            </li>
+            <li class="italy-list-item">
+              <img
+                class="italy-item-img"
+                src="./img/italy/napoli.jpg"
+                alt="Неаполь"
+              />
+              <p class="italy-item-name">Неаполь</p>
+            </li>
+            <li class="italy-list-item">
+              <img
+                class="italy-item-img"
+                src="./img/italy/kastelamare.jpg"
+                alt="Кастелламаре"
+              />
+              <p class="italy-item-name">Кастелламаре</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Reservation -->
+      <section class="reservation">
+        <div class="container">
+          <div class="form-background">
+            <h2 class="reservation-title">Забронювати поїздку</h2>
+            <form action="#" id="form" method="post" class="reservation-form">
+              <label class="reservation-form-label" for="name">
+                Ім'я
+                <input
+                  class="reservation-form-input _req"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Володимир Бартош"
+                />
+                <svg class="reservation-form-svg" width="21" height="21">
+                  <use href="./img/icon.svg#icon-user"></use>
+                </svg>
+              </label>
+              <label class="reservation-form-label" for="phone"
+                >Номер телефону
+                <input
+                  class="reservation-form-input _req"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="+380 00 000 00 00"
+                />
+                <svg class="reservation-form-svg" width="21" height="21">
+                  <use href="./img/icon.svg#icon-phone"></use>
+                </svg>
+              </label>
+              <label class="reservation-form-label" for="email"
+                >Ел. пошта
+                <input
+                  class="reservation-form-input _req _email"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="useremail@example.com"
+                />
+                <svg class="reservation-form-svg" width="21" height="21">
+                  <use href="./img/icon.svg#icon-mail"></use>
+                </svg>
+              </label>
+              <label class="reservation-form-label" for="message">
+                Повідомлення
+                <textarea
+                  class="reservation-form-textarea _req"
+                  name="Message"
+                  id="message"
+                  placeholder="Ваше повідомлення"
+                ></textarea>
+                <svg class="reservation-form-svg" width="21" height="21">
+                  <use href="./img/icon.svg#icon-message"></use>
+                </svg>
+              </label>
+              <label class="reservation-form-label" for="accept"
+                ><input
+                  class="reservation-form-checkbox _req"
+                  type="checkbox"
+                  id="accept"
+                />Я даю дозвіл на обробку моїх персональних даних</label
+              >
+              <button
+                class="reservation-form-button"
+                name="submit"
+                type="submit"
+              >
+                Забронювати
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Reviews -->
+      <section class="reviews">
+        <h2 class="reviews-title">Відгуки</h2>
+        <ul class="reviews-list">
+          <li class="reviews-list-item">
+            <div class="reviews-item-container">
+              <img class="reviews-item-img" src="" alt="" />
+              <p class="reviews-item-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                recusandae obcaecati sint, corrupti ipsum tempora.
+              </p>
+              <h3 class="reviews-item-name">Ім'я</h3>
+            </div>
+          </li>
+          <li class="reviews-list-item">
+            <div class="reviews-item-container">
+              <img class="reviews-item-img" src="" alt="" />
+              <p class="reviews-item-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+                velit quod, magni corrupti quam adipisci?
+              </p>
+              <h3 class="reviews-item-name">Ім'я</h3>
+            </div>
+          </li>
+          <li class="reviews-list-item">
+            <div class="reviews-item-container">
+              <img class="reviews-item-img" src="" alt="" />
+              <p class="reviews-item-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+                tenetur! Illo quae rerum dolorem ducimus.
+              </p>
+              <h3 class="reviews-item-name">Ім'я</h3>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <h2 class="footer-title">Contacts</h2>
+      <h3 class="footer-number">Номера телефону</h3>
+      <ul class="footer-number-list">
+        <li class="footer-number-item">
+          <a class="footer-number-link" href="tel:+393281555527"
+            >+39 328 155 55 27 - Володимир Бартош</a
+          >
+        </li>
+        <li class="footer-number-item">
+          <a class="footer-number-link" href="tel:+380673525072"
+            >+38 067 352 50 72- Viber, WathApp</a
+          >
+        </li>
+        <li class="footer-number-item">
+          <a class="footer-number-link" href="tel:+380673525023"
+            >+38 067 352 50 23 - WathApp (Андрій)</a
+          >
+        </li>
+        <li class="footer-number-item">
+          <a class="footer-number-link" href="tel:+380673501995"
+            >+38 067 350 19 95 - WathApp (Жанна)</a
+          >
+        </li>
+        <li class="footer-number-item">
+          <a class="footer-number-link" href="tel:+393201606952"
+            >+39 320 160 69 52 - Ренат</a
+          >
+        </li>
+        <li class="footer-number-item">
+          <a class="footer-number-link" href="tel:+393204477090"
+            >+39 320 447 70 90 - Андрій/Сергій</a
+          >
+        </li>
+        <li class="footer-number-item">
+          <a class="footer-number-link" href="tel:+393208499895"
+            >+39 320 849 98 95 - Володимир</a
+          >
+        </li>
+        <li class="footer-number-item">
+          <a class="footer-number-link" href="tel:+393208499995"
+            >+39 320 849 99 95 - Udine</a
+          >
+        </li>
+        <li class="footer-number-item">
+          <a class="footer-number-link" href="tel:+393296048353"
+            >+39 329 604 83 53 - Napoli</a
+          >
+        </li>
+        <li class="footer-number-item">
+          <a class="footer-number-link" href="tel:+393202640090"
+            >+39 320 264 00 90 - Venezia</a
+          >
+        </li>
+        <li class="footer-number-item">
+          <a class="footer-number-link" href="tel:+393290253125"
+            >+39 329 025 31 25 - Mestre</a
+          >
+        </li>
+      </ul>
+      <h3 class="footer-social">Соціальні мережі</h3>
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a class="footer-social-link" href="tel:+393281555527"></a>
+        </li>
+        <li class="footer-social-item">
+          <a
+            class="footer-social-link"
+            href="mailto:evropabartosh@gmail.com"
+          ></a>
+        </li>
+        <li class="footer-social-item">
+          <a
+            class="footer-social-link"
+            href="https://api.whatsapp.com/send/?phone=380673525072&text=%D0%A5%D0%BE%D1%87%D1%83+%D0%B7%D0%B0%D0%BC%D0%BE%D0%B2%D0%B8%D1%82%D0%B8+%D0%BF%D0%BE%D1%97%D0%B7%D0%B4%D0%BA%D1%83&type=phone_number&app_absent=0"
+          ></a>
+        </li>
+        <li class="footer-social-item">
+          <a
+            class="footer-social-link"
+            href="https://www.facebook.com/evropabartosh"
+          ></a>
+        </li>
+        <li class="footer-social-item">
+          <a
+            class="footer-social-link"
+            href="https://www.instagram.com/evropabartosh/?igshid=YmMyMTA2M2Y%3D"
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script type="module" src="./js/main.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+    <script type="module" src="./form.js"></script>
+  </body>
+</html>

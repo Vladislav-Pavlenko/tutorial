@@ -1,0 +1,500 @@
+/* Global */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #000000;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+/* Decoration */
+.container {
+  min-width: 1280px;
+  max-width: 1439px;
+  padding: 0 115px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  background-image: url("../img/background-image.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px 0;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  max-width: 110vh;
+}
+
+.header-logo {
+  color: rgb(255, 255, 255);
+  font-family: "Laila", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.header-list {
+  display: flex;
+  margin-left: auto;
+  gap: 69px;
+}
+
+.header-link {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.header-link:hover,
+.header-link:focus {
+}
+/* Hero */
+
+.hero {
+  padding: 232px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-title {
+  color: rgb(255, 255, 255);
+  font-size: 75px;
+  font-weight: 800;
+  line-height: 1.36;
+  margin-bottom: 57px;
+}
+
+.hero-description {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 1.37;
+  max-width: 568px;
+  text-align: center;
+  margin-bottom: 39px;
+}
+
+.hero-button {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.37;
+
+  padding: 13px 22px;
+  border-radius: 10px;
+  background: rgb(0, 166, 81);
+}
+
+/* Services */
+
+.services {
+  padding: 88px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  margin-bottom: 63px;
+}
+
+.services-list {
+  display: flex;
+  gap: 95px;
+}
+
+.services-list-item {
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 14px 18px 10px;
+  border-radius: 15px;
+  max-width: 370px;
+  max-height: 232px;
+
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.services-list-item:hover,
+.services-list-item:focus {
+  background-color: #f9f9f9;
+}
+
+.services-item-svg {
+  margin-bottom: 15px;
+}
+
+.services-item-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.37;
+  margin-bottom: 9px;
+}
+
+.services-item-text {
+  font-size: 16px;
+  line-height: 1.37;
+}
+
+/* About */
+
+.about {
+  padding: 81px 0 113px;
+  background-color: #0058530d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../img/world-map-bg.png");
+}
+
+.about-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 118px;
+  text-align: center;
+}
+
+.about-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+  padding: 19px 45px;
+
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+}
+
+.about-item-svg {
+  fill: #005f15;
+  margin-bottom: 15px;
+}
+
+.about-item-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.36;
+  margin-bottom: 8px;
+}
+
+.about-item-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.35;
+  max-width: 130px;
+  text-align: center;
+}
+
+/* Ukraine */
+.ukraine {
+  padding: 72px 0;
+}
+.ukraine-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.ukraine-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.37;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.ukraine-list {
+  display: flex;
+  gap: 32px;
+}
+.ukraine-list-item {
+  padding-bottom: 24px;
+  overflow: hidden;
+  border-radius: 22px;
+
+  box-shadow: 0px 1.67px 2.84px 0px rgba(0, 0, 0, 0),
+    0px 7.35px 5.88px 0px rgba(0, 0, 0, 0.01),
+    0px 18.05px 11.73px 0px rgba(0, 0, 0, 0.01),
+    0px 34.76px 22.99px 0px rgba(0, 0, 0, 0.01),
+    0px 58.49px 42.28px 0px rgba(0, 0, 0, 0.02),
+    0px 90.24px 72.19px 0px rgba(0, 0, 0, 0.02);
+  background: url(destination-1);
+}
+.ukraine-item-img {
+  margin-bottom: 24px;
+}
+.ukraine-item-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.24;
+  text-align: center;
+}
+/* Italy */
+.italy {
+  padding: 72px 0;
+}
+.italy-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.italy-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.37;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.italy-list {
+  display: flex;
+  gap: 32px;
+}
+.italy-list-item {
+  padding-bottom: 24px;
+  overflow: hidden;
+  border-radius: 22px;
+
+  box-shadow: 0px 1.67px 2.84px 0px rgba(0, 0, 0, 0),
+    0px 7.35px 5.88px 0px rgba(0, 0, 0, 0.01),
+    0px 18.05px 11.73px 0px rgba(0, 0, 0, 0.01),
+    0px 34.76px 22.99px 0px rgba(0, 0, 0, 0.01),
+    0px 58.49px 42.28px 0px rgba(0, 0, 0, 0.02),
+    0px 90.24px 72.19px 0px rgba(0, 0, 0, 0.02);
+}
+.italy-item-img {
+  margin-bottom: 24px;
+}
+.italy-item-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.24;
+  text-align: center;
+}
+/* Reservation */
+.reservation {
+  padding: 96px 0;
+}
+
+.form-background {
+  background-color: #9fffec66;
+  padding: 130px;
+  border-radius: 129px 20px 20px 20px;
+}
+
+.reservation-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-form-label {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.37;
+  margin-bottom: 15px;
+}
+
+.reservation-form-input {
+  margin-top: 5px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  padding: 20px 26px 20px 51px;
+  width: 100%;
+  border: 1px solid #000000;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reservation-form-input._error {
+  box-shadow: 0 0 15px red;
+}
+
+.reservation-form-input::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.37;
+}
+
+.reservation-form-input:focus {
+  outline: none;
+  border: none;
+}
+
+.reservation-form-textarea {
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  padding: 27px 26px 20px 51px;
+  width: 100%;
+  border: 1px solid #000000;
+  resize: none;
+}
+
+.reservation-form-textarea::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.37;
+}
+
+.reservation-form-textarea:focus,
+.reservation-form-textarea:active {
+  outline: none;
+  border: none;
+}
+
+.reservation-form-svg {
+  position: absolute;
+  left: 3.5vh;
+  top: 6.5vh;
+}
+
+.reservation-form-checkbox {
+  margin-right: 10px;
+}
+
+.reservation-form-button {
+  display: flex;
+  justify-content: center;
+  padding: 22px 50px;
+  max-width: 182px;
+  border-radius: 10px;
+  background: rgb(0, 166, 81);
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.37;
+
+  margin-bottom: 15px;
+}
+/* Reviews */
+.reviews {
+}
+.reviews-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.reviews-list {
+}
+.reviews-list-item {
+}
+.reviews-item-container {
+}
+.reviews-item-img {
+}
+.reviews-item-text {
+}
+.reviews-item-name {
+}
+/* Footer */
+.footer {
+}
+.footer-title {
+}
+.footer-number {
+}
+.footer-number-list {
+}
+.footer-number-item {
+}
+.footer-number-link {
+}
+.footer-social {
+}
+.footer-social-list {
+}
+.footer-social-item {
+}
+.footer-social-link {
+}
